@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "yanbreu/yrootde",
+    "autoload": {
+        "psr-4": {
+            "Yanbreu\\YrootDe\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Yanbreu.YrootDe"
+        }
+    }
+}
